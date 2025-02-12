@@ -8,7 +8,7 @@ body {
     justify-content: center; /* aligns children (#hearts) to the center. HORIZONTALLY*/
     align-items: center; /* aligns children (#hearts) to the center. VERTICALLY*/ 
     height: 100vh;
-    background-color: #f0f0f0; 
+    background-color: #e43f76; 
     /*sets background color...can be set using a color like gray or hexCode */
     overflow: hidden;  /*prevent hearts from overflowing outside the screen and adding a scrollbar lol */
   }
