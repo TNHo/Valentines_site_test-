@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    animation: bgChange 5s infinite ease-in-out;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: growShrink 5s infinite ease-in-out;
+}
+
+p {
+    padding-right: 100px;
+    font-family: Gill Sans;
+    font-size:xx-large;
+    font-weight: bold;
+    color:tomato;
+}
+
+@keyframes bgChange {
+    0%, 100% {
+        background-color: antiquewhite;
+    }
+    50% {
+        background-color: azure;
+    }
+}
+
+@keyframes growShrink {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+        background-color: aqua;
+    }
+}
