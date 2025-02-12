@@ -1,5 +1,5 @@
 #hello {
-    background-color:cadetblue;
+    /*background-color:cadetblue;*/
 }
 
 #about {
@@ -24,5 +24,8 @@ p {
 }
 
 body {
-    background-color:azure
+    background-image: url('./images/imdeadbg.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }

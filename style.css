@@ -60,8 +60,8 @@ body {
     background-color: #e43f76; 
     /*sets background color...can be set using a color like gray or hexCode */
     overflow: hidden;  /*prevent hearts from overflowing outside the screen and adding a scrollbar lol */
-    /*background-image: url('./images/bg.png');
+    background-image: url('./images/bg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;*/
+    background-size: cover;
 }
